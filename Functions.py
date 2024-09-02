@@ -17,7 +17,7 @@ numeroMes=1
 #Numero de elementos en la listaCompra
 totalListaCompra = len(listaCompra)
 
-def descuento(precio):  #Funcion que aplica descuento a un precio 
+def descuento(precio):  #Funcion que aplica descuento a un precio
         return precio - (precio * 0.50) 
 
 def ivaAplicado(precio): #Funcion que aplica el IVA a un precio
@@ -40,11 +40,12 @@ while True:
     if eleccion == 2:
         print("Bueno al parecer deseas adquirir varios productos asi que aqui tienes una lista de lo disponible")
         print("-------------------------------------------------------------------------")
-        for 0 in [totalListaCompra]:
-             print (listaCompra.values)
+        while i==1!=totalListaCompra:
+             print(listaCompra.values[i])
+             i+=1
              
 
-    if eleccion == 3: 
+    if eleccion == 3:  
          break
 
     if dia == int(30):
